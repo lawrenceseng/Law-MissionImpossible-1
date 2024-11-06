@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tennis Coach Matcher</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Tennis Player and Coach Matcher</h1>
+        <form id="matchForm">
+            <label for="playerSkill">Player Skill Level:</label>
+            <select id="playerSkill" required>
+                <option value="">Select Skill Level</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <label for="coachSpecialty">Coach Specialty:</label>
+            <select id="coachSpecialty" required>
+                <option value="">Select Coach Specialty</option>
+                <option value="beginner">Beginner</option>
+                <option value="intermediate">Intermediate</option>
+                <option value="advanced">Advanced</option>
+            </select>
+
+            <button type="submit">Find Match</button>
+        </form>
+
+        <div id="result" class="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
