@@ -1,13 +1,13 @@
-document.getElementById('matchForm').addEventListener('submit', function(event) {
+ddocument.getElementById("signup-form").addEventListener("submit", function(event) {
     event.preventDefault();
+    let name = document.getElementById("name").value;
+    let location = document.getElementById("location").value;
+    let role = document.getElementById("role").value;
+    
+    // Simulate saving the profile to an array or database
+    let profile = { name, location, role };
+    localStorage.setItem("userProfile", JSON.stringify(profile));
 
-    const playerSkill = document.getElementById('playerSkill').value;
-    const coachSpecialty = document.getElementById('coachSpecialty').value;
-    const resultDiv = document.getElementById('result');
-
-    if (playerSkill === coachSpecialty) {
-        resultDiv.innerHTML = `<p>Match found! A coach who specializes in ${coachSpecialty} can help you.</p>`;
-    } else {
-        resultDiv.innerHTML = `<p>No match found. Consider looking for a coach with a matching specialty.</p>`;
-    }
+    // Redirect to matches page (assuming matches.html)
+    window.location.href = "matches.html";
 });

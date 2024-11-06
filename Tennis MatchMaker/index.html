@@ -3,36 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Matchmaking</title>
     <link rel="stylesheet" href="styles.css">
-    <title>Tennis Coach Matcher</title>
 </head>
 <body>
     <div class="container">
-        <h1>Tennis Player and Coach Matcher</h1>
-        <form id="matchForm">
-            <label for="playerSkill">Player Skill Level:</label>
-            <select id="playerSkill" required>
-                <option value="">Select Skill Level</option>
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
-            </select>
-
-            <label for="coachSpecialty">Coach Specialty:</label>
-            <select id="coachSpecialty" required>
-                <option value="">Select Coach Specialty</option>
-                <option value="beginner">Beginner</option>
-                <option value="intermediate">Intermediate</option>
-                <option value="advanced">Advanced</option>
-            </select>
-
-            <button type="submit">Find Match</button>
-        </form>
-
-        <div id="result" class="result"></div>
+        <h1>Find Your Perfect Tennis Match</h1>
+        <p>Connecting players with top-rated coaches</p>
+        <button onclick="window.location.href='signup.html'">Sign Up as Player</button>
+        <button onclick="window.location.href='signup.html'">Sign Up as Coach</button>
     </div>
-
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Sign Up</h2>
+        <form id="signup-form">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="location" placeholder="Location" required>
+            <select id="role">
+                <option value="player">Player</option>
+                <option value="coach">Coach</option>
+            </select>
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
-
