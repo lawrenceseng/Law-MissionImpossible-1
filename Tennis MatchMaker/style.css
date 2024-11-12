@@ -86,10 +86,5 @@ body::before {
 
 body::after {
     right: 5%;
-    body {
-        background-image: url('https://www.istockphoto.com/photo/tennis-ball-racket-and-court-ground-with-mockup-space-blurred-background-or-outdoor-gm1483011696-509738146'); /* Replace with the path to your image */
-        background-size: cover; /* Makes the background cover the entire page */
-        background-position: center; /* Centers the background image */
-        background-repeat: no-repeat; /* Prevents the image from repeating */
       }
 }
