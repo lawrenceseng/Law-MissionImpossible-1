@@ -1,6 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #f8b400, #e66465);
+    background: linear-gradient(to right, #f8b400, #e66465), url('/workspaces/Law-MissionImpossible-1/Tennis MatchMaker/E and me.jpeg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
     color: #fff;
     text-align: center;
     margin: 0;
@@ -78,6 +80,9 @@ body::before, body::after {
     background: url('racket.png') no-repeat center;
     background-size: contain;
     opacity: 0.5; /* Optional: adjust opacity */
+
+
+    
 }
 
 body::before {
