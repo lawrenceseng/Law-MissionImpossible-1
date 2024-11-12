@@ -45,7 +45,7 @@ button:hover {
 }
 
 input, select {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     margin: 10px 0;
     border-radius: 5px;
@@ -54,7 +54,7 @@ input, select {
 }
 
 button, input[type="button"] {
-    width: 100%;
+    width: 80%;
     padding: 10px;
     background-color: #e66465;
     color: #fff;
@@ -86,4 +86,10 @@ body::before {
 
 body::after {
     right: 5%;
+    body {
+        background-image: url('https://www.istockphoto.com/photo/tennis-ball-racket-and-court-ground-with-mockup-space-blurred-background-or-outdoor-gm1483011696-509738146'); /* Replace with the path to your image */
+        background-size: cover; /* Makes the background cover the entire page */
+        background-position: center; /* Centers the background image */
+        background-repeat: no-repeat; /* Prevents the image from repeating */
+      }
 }

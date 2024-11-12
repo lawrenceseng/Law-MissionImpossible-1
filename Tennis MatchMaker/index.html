@@ -11,8 +11,8 @@
     <div class="container">
         <h1>Find Your Perfect Tennis Match</h1>
         <p>Connecting players with top-rated coaches</p>
-        <button onclick="window.location.href='signup.html'">Sign Up as Player</button>
-        <button onclick="window.location.href='signup.html'">Sign Up as Coach</button>
+        <button onclick="window.location.href='signup.html'">Enter Player Details</button>
+        <button onclick="window.location.href='signup.html'">Enter Coach Details</button>
     </div>
 </body>
 </html>
@@ -26,15 +26,15 @@
 </head>
 <body>
     <div class="form-container">
-        <h2>Sign Up</h2>
+        <h2>Player's Want to Play</h2>
         <form id="signup-form">
             <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="name" placeholder="Player's Standard" required>
+            <input type="text" id="name" placeholder="Date" required>
+            <input type="text" id="name" placeholder="Time" required>
             <input type="text" id="location" placeholder="Location" required>
-            <select id="role">
-                <option value="player">Player</option>
-                <option value="coach">Coach</option>
-            </select>
-            <button type="submit">Sign Up</button>
+    
+            <button type="submit">Assign Coach</button>
         </form>
     </div>
     <script src="script.js"></script>
