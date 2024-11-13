@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tennis Players & Coaches Matching Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <div class="row overflow-hidden">
+            <div class="col-8 overflow-hidden" style="overflow: hidden;">
+                <h1 class="fs-1 fw-bolder" style="position: absolute;margin-left: 20%;margin-top: 50px;">Find My Coach</h1>
+                <img src="banner.jpeg" width="100%" height="950px">
+            </div>
+            <div class="col-4 overflow-hidden">
+                <div class="container-form">
+                    <h1>Tennis Players & Coaches Matching Application</h1>
+        
+                <!-- Player Information Form -->
+                <form id="player-form" action="match.html" method="get">
+                    <label for="player-name">Player Name:</label>
+                    <input type="text" id="player-name" name="player-name" placeholder="Enter player name" required>
+        
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="" disabled selected>Select Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
+        
+                    <label for="skill-level">Player Tennis Skills:</label>
+                    <select id="skill-level" name="skill-level" required>
+                        <option value="" disabled selected>Select Skill Level</option>
+                        <option value="Beginner">Beginner</option>
+                        <option value="Intermediate">Intermediate</option>
+                        <option value="Advanced">Advanced</option>
+                    </select>
+        
+                    <label for="date">Choose Date:</label>
+                    <input type="date" id="date" name="date" required>
+        
+                    <label for="time">Choose Time:</label>
+                    <input type="time" id="time" name="time" required>
+        
+                    <label for="location">Choose Location:</label>
+                    <select id="location" name="location" required>
+                        <option value="" disabled selected>Select Location</option>
+                        <option value="Court A">Court A</option>
+                        <option value="Court B">Court B</option>
+                        <option value="Court C">Court C</option>
+                    </select>
+        
+                    <!-- Player Request Dropdown -->
+                    <label for="request">Player Request:</label>
+                    <select id="request" name="request" required>
+                        <option value="" disabled selected>Select Request</option>
+                        <option value="Forehand">Forehand</option>
+                        <option value="Backhand">Backhand</option>
+                        <option value="Overhead Serves">Overhead Serves</option>
+                        <option value="Match Play">Match Play</option>
+                    </select>
+        
+                    <button type="submit">Match with a Coach</button>
+                </form>
+        
+                <!-- Links to Google Maps and Pricing Chart -->
+                <div class="links">
+                    <a href="https://www.google.com/maps/search/tennis+venues/" target="_blank">Find Tennis Venues on Google Maps</a>
+                    <a href="pricing-chart.html" target="_blank">View Pricing Chart</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

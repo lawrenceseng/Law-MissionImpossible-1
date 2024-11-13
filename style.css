@@ -1,0 +1,97 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: Arial, sans-serif;
+    background: url('path/to/te/workspaces/Law-MissionImpossible-1/Tennis MatchMaker/racket.pngnnis-court.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+
+.container-form {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    /* width: 350px; */
+    border-radius: 10px;
+    text-align: center;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #e66465;
+    font-size: 16px;
+}
+
+button {
+    background-color: #e66465;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #d45454;
+}
+
+.links {
+    margin: 20px 0;
+}
+
+.links a {
+    display: block;
+    color: #e66465;
+    margin: 10px 0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links a:hover {
+    color: #d45454;
+    text-decoration: underline;
+}
+
+.coach-profile {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.player-profile {
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
